@@ -19,7 +19,6 @@ public class Main {
         printDiagonal();
     }
 
-
     private static void createArray(int[] myArray) {
         System.out.print("Generated Array: ");
         for (int i = 0; i < myArray.length; i++) {
@@ -85,11 +84,7 @@ public class Main {
                         {"fish", "bird", "hamster"},
                         {"fly", "snake", "bear"}};
         for (int i = 0; i < someMatrix.length; i++) {
-            if (someMatrix[i][i].equals(someMatrix[i][i])) {
                 System.out.print(someMatrix[i][i] + " ");
             }
-        }
     }
 }
-
-
